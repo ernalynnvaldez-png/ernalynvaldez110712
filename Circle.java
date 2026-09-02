@@ -1,0 +1,12 @@
+public class Circle {
+
+    public static void main(String[] args) {
+
+        int radius = 2;
+        double area;
+
+        area = radius * radius * 3.142;
+
+        System.out.println("Area = " + area);
+    }
+}
