@@ -1,0 +1,17 @@
+public class Average {
+    public static void main(String[] args) {
+
+        // Declare three numbers
+        int number1 = 10;
+        int number2 = 20;
+        int number3 = 45;
+
+        // Calculate the average
+        int average = (number1 + number2 + number3) / 3;
+
+        // Display the results
+        System.out.println("number 1 = " + number1);
+        System.out.println("number 2 = " + number2);
+        System.out.println("number 3 = " + number3);
+        System.out.println("average is = " + average);
+    }
