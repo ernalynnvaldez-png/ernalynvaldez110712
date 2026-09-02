@@ -1,0 +1,10 @@
+public class Javalab3
+{
+        public static void main ( String[]  args)
+        {
+            System.out.println("Welcome to java programming Using NetBeans! ");
+            System.out.println("I love Java Programming ");
+            System.out.println("Hernan Aquino");
+         }
+ }
+Compose
