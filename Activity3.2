@@ -1,0 +1,26 @@
+package helloworld.control;
+
+public class BonusPayment2 {
+
+    public static void main(String[] args) {
+
+        // Declare variables
+        int itemsSold = 4;
+        int totalValue = 2500;
+
+        // Using AND (&&) operator
+        if (itemsSold > 3 && totalValue > 1000) {
+
+            System.out.println("Received Php100 bonus");
+
+        } else if (itemsSold > 3 && totalValue <= 1000) {
+
+            System.out.println("Received Php50 bonus");
+
+        } else {
+
+            System.out.println("No bonus for you");
+
+        }
+    }
+}
